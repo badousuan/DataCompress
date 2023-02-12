@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		EEEF9293298E572A00CDFF2B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEEF9292298E572A00CDFF2B /* main.cpp */; };
+		EEEF92A6298E580000CDFF2B /* HuffmanCodec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEEF92A4298E580000CDFF2B /* HuffmanCodec.cpp */; };
+		EEEF92A9298E589600CDFF2B /* Statistic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEEF92A7298E589600CDFF2B /* Statistic.cpp */; };
+		EEEF92AC298E5A9C00CDFF2B /* BinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEEF92AA298E5A9C00CDFF2B /* BinaryTree.cpp */; };
+		EEEF92AF298E632600CDFF2B /* BitStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEEF92AD298E632500CDFF2B /* BitStream.cpp */; };
+		EEEF92B2298E659900CDFF2B /* VLCTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEEF92B0298E659900CDFF2B /* VLCTable.cpp */; };
+		EEEF92B52998DAE700CDFF2B /* Bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEEF92B32998DAE700CDFF2B /* Bits.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,26 @@
 /* Begin PBXFileReference section */
 		EEEF928F298E572A00CDFF2B /* DataCompress */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataCompress; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEF9292298E572A00CDFF2B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EEEF929A298E577300CDFF2B /* huffman.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = huffman.hpp; sourceTree = "<group>"; };
+		EEEF929B298E577300CDFF2B /* rle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rle.hpp; sourceTree = "<group>"; };
+		EEEF929D298E577300CDFF2B /* lenna_tga.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lenna_tga.hpp; sourceTree = "<group>"; };
+		EEEF929E298E577300CDFF2B /* random_512.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = random_512.hpp; sourceTree = "<group>"; };
+		EEEF929F298E577300CDFF2B /* tests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tests.cpp; sourceTree = "<group>"; };
+		EEEF92A0298E577300CDFF2B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EEEF92A1298E577300CDFF2B /* rice.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rice.hpp; sourceTree = "<group>"; };
+		EEEF92A2298E577300CDFF2B /* lzw.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lzw.hpp; sourceTree = "<group>"; };
+		EEEF92A4298E580000CDFF2B /* HuffmanCodec.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HuffmanCodec.cpp; sourceTree = "<group>"; };
+		EEEF92A5298E580000CDFF2B /* HuffmanCodec.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HuffmanCodec.hpp; sourceTree = "<group>"; };
+		EEEF92A7298E589600CDFF2B /* Statistic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Statistic.cpp; sourceTree = "<group>"; };
+		EEEF92A8298E589600CDFF2B /* Statistic.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Statistic.hpp; sourceTree = "<group>"; };
+		EEEF92AA298E5A9C00CDFF2B /* BinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTree.cpp; sourceTree = "<group>"; };
+		EEEF92AB298E5A9C00CDFF2B /* BinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTree.hpp; sourceTree = "<group>"; };
+		EEEF92AD298E632500CDFF2B /* BitStream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BitStream.cpp; sourceTree = "<group>"; };
+		EEEF92AE298E632500CDFF2B /* BitStream.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BitStream.hpp; sourceTree = "<group>"; };
+		EEEF92B0298E659900CDFF2B /* VLCTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VLCTable.cpp; sourceTree = "<group>"; };
+		EEEF92B1298E659900CDFF2B /* VLCTable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VLCTable.hpp; sourceTree = "<group>"; };
+		EEEF92B32998DAE700CDFF2B /* Bits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bits.cpp; sourceTree = "<group>"; };
+		EEEF92B42998DAE700CDFF2B /* Bits.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Bits.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +67,7 @@
 		EEEF9286298E572A00CDFF2B = {
 			isa = PBXGroup;
 			children = (
+				EEEF9299298E577300CDFF2B /* compression-algorithms */,
 				EEEF9291298E572A00CDFF2B /* DataCompress */,
 				EEEF9290298E572A00CDFF2B /* Products */,
 			);
@@ -58,8 +85,43 @@
 			isa = PBXGroup;
 			children = (
 				EEEF9292298E572A00CDFF2B /* main.cpp */,
+				EEEF92A4298E580000CDFF2B /* HuffmanCodec.cpp */,
+				EEEF92A5298E580000CDFF2B /* HuffmanCodec.hpp */,
+				EEEF92A7298E589600CDFF2B /* Statistic.cpp */,
+				EEEF92A8298E589600CDFF2B /* Statistic.hpp */,
+				EEEF92AA298E5A9C00CDFF2B /* BinaryTree.cpp */,
+				EEEF92AB298E5A9C00CDFF2B /* BinaryTree.hpp */,
+				EEEF92AD298E632500CDFF2B /* BitStream.cpp */,
+				EEEF92AE298E632500CDFF2B /* BitStream.hpp */,
+				EEEF92B0298E659900CDFF2B /* VLCTable.cpp */,
+				EEEF92B1298E659900CDFF2B /* VLCTable.hpp */,
+				EEEF92B32998DAE700CDFF2B /* Bits.cpp */,
+				EEEF92B42998DAE700CDFF2B /* Bits.hpp */,
 			);
 			path = DataCompress;
+			sourceTree = "<group>";
+		};
+		EEEF9299298E577300CDFF2B /* compression-algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				EEEF929A298E577300CDFF2B /* huffman.hpp */,
+				EEEF929B298E577300CDFF2B /* rle.hpp */,
+				EEEF929C298E577300CDFF2B /* tests */,
+				EEEF92A0298E577300CDFF2B /* README.md */,
+				EEEF92A1298E577300CDFF2B /* rice.hpp */,
+				EEEF92A2298E577300CDFF2B /* lzw.hpp */,
+			);
+			path = "compression-algorithms";
+			sourceTree = "<group>";
+		};
+		EEEF929C298E577300CDFF2B /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				EEEF929D298E577300CDFF2B /* lenna_tga.hpp */,
+				EEEF929E298E577300CDFF2B /* random_512.hpp */,
+				EEEF929F298E577300CDFF2B /* tests.cpp */,
+			);
+			path = tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +182,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEEF9293298E572A00CDFF2B /* main.cpp in Sources */,
+				EEEF92B2298E659900CDFF2B /* VLCTable.cpp in Sources */,
+				EEEF92AF298E632600CDFF2B /* BitStream.cpp in Sources */,
+				EEEF92A9298E589600CDFF2B /* Statistic.cpp in Sources */,
+				EEEF92A6298E580000CDFF2B /* HuffmanCodec.cpp in Sources */,
+				EEEF92B52998DAE700CDFF2B /* Bits.cpp in Sources */,
+				EEEF92AC298E5A9C00CDFF2B /* BinaryTree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +308,7 @@
 		EEEF9297298E572A00CDFF2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68JHA6SHNP;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -250,6 +319,7 @@
 		EEEF9298298E572A00CDFF2B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68JHA6SHNP;
 				ENABLE_HARDENED_RUNTIME = YES;
